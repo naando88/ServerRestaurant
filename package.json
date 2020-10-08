@@ -1,0 +1,16 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch ./db/restaurant-app.json --port 4001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

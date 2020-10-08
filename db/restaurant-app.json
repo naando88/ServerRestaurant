@@ -1,0 +1,483 @@
+{
+  "restaurant-app": [
+    {
+      "client": [
+        {
+          "client_id": "0",
+          "client_name": "Cliente 0",
+          "client_DNI": "DNI 0",
+          "client_NumTable": "5",
+          "client_fechaConsumo": "Fecha de consumo",
+          "client_order": "Pedido del dia",
+          "client_coments": "comentarios"
+        }
+      ]
+    },
+    {
+      "combo": [
+        {
+          "combo_id": "0",
+          "combo_description": "Ceviche de Pescado o mixto+Chaufa Amazónico+vaso de chicha",
+          "combo_numberPerson": "Porcion para 4 personas",
+          "combo_price": "120"
+        },
+        {
+          "combo_id": "1",
+          "combo_description": "Tiradito de Ají Amarillo+Arroz con Mariscos+Vaso de chicha",
+          "combo_numberPerson": "Porcion para 2 personas",
+          "combo_price": "80"
+        },
+        {
+          "combo_id": "3",
+          "combo_description": "Pulpo a la Parrilla+Salmon Nikkei+Vaso de chicha",
+          "combo_numberPerson": "Porcion para 4 personas",
+          "combo_price": "140"
+        },
+        {
+          "combo_id": "4",
+          "combo_description": "Crema de choclo con champiñones al ajillo+Fussili tricolor con salsa de verduras confitadas+Vaso de chicha",
+          "combo_numberPerson": "Porcion para 4 personas",
+          "combo_price": "130"
+        },
+        {
+          "combo_id": "5",
+          "combo_description": "Minestrone a la Criolla+Rissoni de Hongos+Vaso de chicha",
+          "combo_numberPerson": "Porcion para 2 personas",
+          "combo_price": "70"
+        }
+      ]
+    },
+    {
+      "oferta": [
+        {
+          "discount_id": "0",
+          "discount_name": "Según selección",
+          "discount_description": "30% de descuento",
+          "discount_newPrice": "Según selección"
+        },
+        {
+          "discount_id": "1",
+          "discount_name": "Según selección",
+          "discount_description": "30% de descuento",
+          "discount_newPrice": "Según selección"
+        },
+        {
+          "discount_id": "3",
+          "discount_name": "Según selección",
+          "discount_description": "25% de descuento",
+          "discount_newPrice": "Según selección"
+        },
+        {
+          "discount_id": "4",
+          "discount_name": "Según selección",
+          "discount_description": "20% de descuento",
+          "discount_newPrice": "Según selección"
+        },
+        {
+          "discount_id": "5",
+          "discount_name": "Según selección",
+          "discount_description": "10% de descuento",
+          "discount_newPrice": "Según selección"
+        }
+      ]
+    },
+    {
+      "dishes": [
+        {
+          "dishes_id": "10",
+          "dishes_type": "ENTRADAS",
+          "dishes_name": "Ceviche de Pescado o mixto",
+          "dishes_description": "Pesca del día, marinada en jugo de limón y especias, con cebollas, siguiendo nuestra clásica receta.",
+          "dishes_price": "63",
+          "dishes_discount": "0",
+          "dishes_image": "10.png"
+        },
+        {
+          "dishes_id": "11",
+          "dishes_type": "ENTRADAS",
+          "dishes_name": "Ceviche Caliente al Panko",
+          "dishes_description": "Pesca del día empanizada con panko, bañados en leche de tigre al ají amarillo y acompañados de cebolla en pluma, camotitos glaseados y granos de choclo.",
+          "dishes_price": "64",
+          "dishes_discount": "0",
+          "dishes_image": "11.png"
+        },
+        {
+          "dishes_id": "12",
+          "dishes_type": "ENTRADAS",
+          "dishes_name": "Pulpo a la Parrilla",
+          "dishes_description": "Tiernos tentáculos de pulpo a la parrilla sobre una cama de papas, tomates cherry macerados con alcaparras, coronado con berros frescos.",
+          "dishes_price": "48",
+          "dishes_discount": "0",
+          "dishes_image": "12.png"
+        },
+        {
+          "dishes_id": "13",
+          "dishes_type": "ENTRADAS",
+          "dishes_name": "Tataki de Atún",
+          "dishes_description": "Frescas láminas de atún sobre palta y pepino japonés, bañadas con salsa tataki y ajonjolí negro.",
+          "dishes_price": "58",
+          "dishes_discount": "0",
+          "dishes_image": "13.png"
+        },
+        {
+          "dishes_id": "14",
+          "dishes_type": "ENTRADAS",
+          "dishes_name": "Tiradito de Ají Amarillo",
+          "dishes_description": "Laminas de pescado fresco bañadas en salsa de ají amarillo, acompañadas con choclo y canchita chulpi.",
+          "dishes_price": "62",
+          "dishes_discount": "0",
+          "dishes_image": "14.png"
+        },
+        {
+          "dishes_id": "20",
+          "dishes_type": "ENSALADAS",
+          "dishes_name": "Ensalada César",
+          "dishes_description": "Frescas hojas de lechuga romana, queso parmesano rallado y croutons, con aliño césar de anchoas",
+          "dishes_price": "32",
+          "dishes_discount": "0",
+          "dishes_image": "20.png"
+        },
+        {
+          "dishes_id": "21",
+          "dishes_type": "ENSALADAS",
+          "dishes_name": "Ensalada Thai",
+          "dishes_description": "Verduras cortadas en juliana con tiritas de wantan frito y aderezo dulce de mandarina; acompañado de deditos de pollo arrebozados en quinua",
+          "dishes_price": "36",
+          "dishes_discount": "0",
+          "dishes_image": "21.png"
+        },
+        {
+          "dishes_id": "22",
+          "dishes_type": "ENSALADAS",
+          "dishes_name": "Ensalada de Peras y Queso Brie al Panko",
+          "dishes_description": "Hojas de arúgula con peras y naranjas caramelizadas coronadas con queso brie al panko",
+          "dishes_price": "38",
+          "dishes_discount": "0",
+          "dishes_image": "22.png"
+        },
+        {
+          "dishes_id": "23",
+          "dishes_type": "ENSALADAS",
+          "dishes_name": "Ensalada Griega de Quinua y Palta",
+          "dishes_description": "Ensalada de quinua con palta, aceituna negra, lechuga romana, queso feta y tomate.",
+          "dishes_price": "36",
+          "dishes_discount": "0",
+          "dishes_image": "23.png"
+        },
+        {
+          "dishes_id": "30",
+          "dishes_type": "SOPAS Y CREMAS",
+          "dishes_name": "Crema de choclo con champiñones al ajillo",
+          "dishes_description": "Deliciosa crema de choclo acompañada con champiñones ahumados a fuego fuerte. ",
+          "dishes_price": "38",
+          "dishes_discount": "0",
+          "dishes_image": "30.png"
+        },
+        {
+          "dishes_id": "31",
+          "dishes_type": "SOPAS Y CREMAS",
+          "dishes_name": "Minestrone a la Criolla",
+          "dishes_description": "Tradicional sopa italiana cocinado lentamente con carne de res y las más frescas verduras y tubérculos orgánicos",
+          "dishes_price": "42",
+          "dishes_discount": "0",
+          "dishes_image": "31.png"
+        },
+        {
+          "dishes_id": "32",
+          "dishes_type": "SOPAS Y CREMAS",
+          "dishes_name": "Crema de Zanahoria y Curry",
+          "dishes_description": "Deliciosa crema a base de cebolla blanca, zanahoria y curry; acompañada de crujientes croutons de pan campesino.",
+          "dishes_price": "36",
+          "dishes_discount": "0",
+          "dishes_image": "32.png"
+        },
+        {
+          "dishes_id": "40",
+          "dishes_type": "PASTAS Y ARROCES",
+          "dishes_name": "Penne a la Vodka",
+          "dishes_description": "Penne al dente en salsa de crema de leche, vodka y ají amarillo; acompañado de salmón ahumado y caviar negro.",
+          "dishes_price": "65",
+          "dishes_discount": "0",
+          "dishes_image": "40.png"
+        },
+        {
+          "dishes_id": "41",
+          "dishes_type": "PASTAS Y ARROCES",
+          "dishes_name": "Rissoni de Hongos",
+          "dishes_description": "Rissoni al dente en cremosa salsa de champiñones y funghi. Fussili tricolor con salsa de verduras confitadas",
+          "dishes_price": "65",
+          "dishes_discount": "0",
+          "dishes_image": "41.png"
+        },
+        {
+          "dishes_id": "42",
+          "dishes_type": "PASTAS Y ARROCES",
+          "dishes_name": "Fussili tricolor con salsa de verduras confitadas",
+          "dishes_description": "Pasta corta en salsa de tomates, berenjenas, zapallito y tomates confitados.",
+          "dishes_price": "65",
+          "dishes_discount": "0",
+          "dishes_image": "42.png"
+        },
+        {
+          "dishes_id": "43",
+          "dishes_type": "PASTAS Y ARROCES",
+          "dishes_name": "Arroz con Mariscos",
+          "dishes_description": "Espectacular arroz meloso a base de ajíes braseados y los más frescos mariscos.",
+          "dishes_price": "60",
+          "dishes_discount": "0",
+          "dishes_image": "43.png"
+        },
+        {
+          "dishes_id": "44",
+          "dishes_type": "PASTAS Y ARROCES",
+          "dishes_name": "Chaufa Amazónico",
+          "dishes_description": "Arroz salteado al wok, cerdo ahumado, chorizo regional, salsa de cocona y plátano verde crujiente",
+          "dishes_price": "60",
+          "dishes_discount": "0",
+          "dishes_image": "44.png"
+        },
+        {
+          "dishes_id": "50",
+          "dishes_type": "PESCADOS Y MARISCOS",
+          "dishes_name": "Corvina en costra de Quinua",
+          "dishes_description": "Pescado a la plancha con quinua orgánica deshidratada a baja temperatura,acompañada de un puré de camote con especies y sal de maras.",
+          "dishes_price": "68",
+          "dishes_discount": "0",
+          "dishes_image": "50.png"
+        },
+        {
+          "dishes_id": "51",
+          "dishes_type": "PESCADOS Y MARISCOS",
+          "dishes_name": "Salmon Nikkei",
+          "dishes_description": "Pescado en cubos a la plancha con arroz frito, tortilla laqueada en salsa de ostión, verduras crocantes, langostinos, praliné de nueces y nabo encurtido",
+          "dishes_price": "65",
+          "dishes_discount": "0",
+          "dishes_image": "51.png"
+        },
+        {
+          "dishes_id": "60",
+          "dishes_type": "AVES Y CARNES",
+          "dishes_name": "Lomo Saltado con Arroz con choclo",
+          "dishes_description": "Suaves trozos de lomo con cebolla, tomate, salteados al mejor estilo peruano y acompañado con papitas andinas.",
+          "dishes_price": "63",
+          "dishes_discount": "0",
+          "dishes_image": "60.png"
+        },
+        {
+          "dishes_id": "61",
+          "dishes_type": "AVES Y CARNES",
+          "dishes_name": "Seco de Asado de tira",
+          "dishes_description": "Asado de tira cocinado lentamente en pasta de culantro, ají amarillo y chicha de jora. Acompañado de yucas sancochadas y arroz blanco.",
+          "dishes_price": "62",
+          "dishes_discount": "0",
+          "dishes_image": "61.png"
+        },
+        {
+          "dishes_id": "62",
+          "dishes_type": "AVES Y CARNES",
+          "dishes_name": "Entraña a la Pimienta Negra y crocantes Papitas Tumbay",
+          "dishes_description": "Entraña en cremosa salsa de pimienta negra y cognac; acompañada de deliciosas papitas doradas con cáscara.",
+          "dishes_price": "96",
+          "dishes_discount": "0",
+          "dishes_image": "62.png"
+        },
+        {
+          "dishes_id": "63",
+          "dishes_type": "AVES Y CARNES",
+          "dishes_name": "Milanesa en Salsa de Tomate y Papas Fritas",
+          "dishes_description": "Pechuga de pollo al panko bañada en salsa pomodoro, tomates confitados mozzarella gratinada; servida con papas amarillas fritas.",
+          "dishes_price": "58",
+          "dishes_discount": "0",
+          "dishes_image": "63.png"
+        },
+        {
+          "dishes_id": "70",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Copitas de chocolate rellenas de mousse de lúcuma",
+          "dishes_description": "Cremoso mousse de lúcuma servido sobre tacita de chocolate bitter",
+          "dishes_price": "23",
+          "dishes_discount": "0",
+          "dishes_image": "70.png"
+        },
+        {
+          "dishes_id": "71",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Panna cotta",
+          "dishes_description": "Servido en una base crocante, coulis de citricios y praliné de almendras",
+          "dishes_price": "23",
+          "dishes_discount": "0",
+          "dishes_image": "71.png"
+        },
+        {
+          "dishes_id": "72",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Merengado de frutos rojos",
+          "dishes_description": "Mix de frutos del bosque con trozos de merengue, dulce de leche y crema batida.",
+          "dishes_price": "23",
+          "dishes_discount": "0",
+          "dishes_image": "72.png"
+        },
+        {
+          "dishes_id": "73",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Brownie en sartén de fierro con helado de vainilla",
+          "dishes_description": "Delicioso brownie de chocolate en sartén de fierro servido con helado de vainilla y fudge de chocolate",
+          "dishes_price": "21",
+          "dishes_discount": "0",
+          "dishes_image": "73.png"
+        },
+        {
+          "dishes_id": "74",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Manjarblanco de Chirimoya",
+          "dishes_description": "Sabroso manjarblanco cocinado lentamente, combinado con pulpa de chirimoya y merengue en trozos.",
+          "dishes_price": "23",
+          "dishes_discount": "0",
+          "dishes_image": "74.png"
+        },
+        {
+          "dishes_id": "75",
+          "dishes_type": "POSTRES",
+          "dishes_name": "Chocolate al 70%",
+          "dishes_description": "Chocolate en su forma primaria trabajado en diferentes texturas. ",
+          "dishes_price": "30",
+          "dishes_discount": "0",
+          "dishes_image": "75.png"
+        },
+        {
+          "dishes_id": "80",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Chicha",
+          "dishes_description": "Jarra de 1 Lt.",
+          "dishes_price": "23",
+          "dishes_discount": "0",
+          "dishes_image": "80.png"
+        },
+        {
+          "dishes_id": "81",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Limonada",
+          "dishes_description": "Jarra de 1 Lt.",
+          "dishes_price": "25",
+          "dishes_discount": "0",
+          "dishes_image": "81.png"
+        },
+        {
+          "dishes_id": "82",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Sangria",
+          "dishes_description": "Jarra de 1 Lt.",
+          "dishes_price": "30",
+          "dishes_discount": "0",
+          "dishes_image": "82.png"
+        },
+        {
+          "dishes_id": "83",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Cerveza artesanal",
+          "dishes_description": "Jarra de 1 Lt.",
+          "dishes_price": "30",
+          "dishes_discount": "0",
+          "dishes_image": "83.png"
+        },
+        {
+          "dishes_id": "84",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Café",
+          "dishes_description": "1 Taza personal",
+          "dishes_price": "15",
+          "dishes_discount": "0",
+          "dishes_image": "84.png"
+        },
+        {
+          "dishes_id": "85",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Te",
+          "dishes_description": "1 Taza personal",
+          "dishes_price": "15",
+          "dishes_discount": "0",
+          "dishes_image": "85.png"
+        },
+        {
+          "dishes_id": "86",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Jugo de Papaya",
+          "dishes_description": "Vaso de 500ml",
+          "dishes_price": "20",
+          "dishes_discount": "0",
+          "dishes_image": "86.png"
+        },
+        {
+          "dishes_id": "87",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Jugo de Naranja",
+          "dishes_description": "Vaso de 500ml",
+          "dishes_price": "20",
+          "dishes_discount": "0",
+          "dishes_image": "87.png"
+        },
+        {
+          "dishes_id": "88",
+          "dishes_type": "BEBIDAS",
+          "dishes_name": "Jugo de Piña",
+          "dishes_description": "Vaso de 500ml",
+          "dishes_price": "20",
+          "dishes_discount": "0",
+          "dishes_image": "88.png"
+        }
+      ]
+    },
+    {
+      "table": [
+        {
+          "table_id": "0",
+          "tableName": "Mesa 1",
+          "table_Order": "Order Mesa 1",
+          "table_coments": "Comentarios Mesa 1"
+        },
+        {
+          "table_id": "1",
+          "tableName": "Mesa 2",
+          "table_Order": "Order Mesa 2",
+          "table_coments": "Comentarios Mesa 2"
+        },
+        {
+          "table_id": "2",
+          "tableName": "Mesa 3",
+          "table_Order": "Order Mesa 3",
+          "table_coments": "Comentarios Mesa 3"
+        },
+        {
+          "table_id": "3",
+          "tableName": "Mesa 4",
+          "table_Order": "Order Mesa 4",
+          "table_coments": "Comentarios Mesa 4"
+        },
+        {
+          "table_id": "4",
+          "tableName": "Mesa 5",
+          "table_Order": "Order Mesa 5",
+          "table_coments": "Comentarios Mesa 5"
+        },
+        {
+          "table_id": "5",
+          "tableName": "Mesa 6",
+          "table_Order": "Order Mesa 6",
+          "table_coments": "Comentarios Mesa 6"
+        },
+        {
+          "table_id": "6",
+          "tableName": "Mesa 7",
+          "table_Order": "Order Mesa 7",
+          "table_coments": "Comentarios Mesa 7"
+        },
+        {
+          "table_id": "7",
+          "tableName": "Mesa 8",
+          "table_Order": "Order Mesa 8",
+          "table_coments": "Comentarios Mesa 8"
+        }
+      ]
+    }
+  ]
+}
